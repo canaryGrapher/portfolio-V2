@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .bg-theme {
+        background-color: #161616;
+    }
+
+    .text-flag-orange {
+        color: #FF9933;
+    }
+
+    .text-flag-green {
+        color: #138808;
+    }
+}
+
+html,
+body {
+    background-color: #161616;
+}

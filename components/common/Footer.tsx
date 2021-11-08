@@ -1,7 +1,6 @@
 const Footer = () => (
-  <footer>
-    <hr />
-    <span>I'm here to stay (Footer)</span>
+  <footer className="absolute bottom-0 bg-gray-800 w-screen h-32 text-gray-300">
+    <span className="self-center">Footer yet to be designed</span>
   </footer>
 );
 

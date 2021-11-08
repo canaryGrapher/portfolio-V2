@@ -10,10 +10,10 @@ import Footer from "../components/common/Footer";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="bg-gray-800">
+    <div className="overflow-x-hidden">
       <Navbar />
       <Component {...pageProps} />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
