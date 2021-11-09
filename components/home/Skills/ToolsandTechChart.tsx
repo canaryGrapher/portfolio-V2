@@ -10,7 +10,7 @@ const ToolsandTechChart: React.FC<IToolsandTechnologies> = (props) => (
     </div>
     <div className="w-9/12 flex flex-row">
       {props.tools.map((tool) => (
-        <p className="mr-4">{tool}</p>
+        <p className="mr-4 border-1 ">{tool}</p>
       ))}
     </div>
   </div>
