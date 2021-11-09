@@ -17,3 +17,8 @@ export type ISkills = {
   title: string;
   info: string;
 }
+
+export type IToolsandTechnologies = {
+  title: string;
+  tools: string[];
+}

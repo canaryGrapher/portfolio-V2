@@ -15,7 +15,7 @@ const AboutSection: React.FC = () => {
       <div className="pt-10">
         {aboutData.map((item, index) => {
           const alignment = index % 2 === 0 ? false : true;
-          return <AboutCard {...item} odd={alignment} />;
+          return <AboutCard key={index} {...item} odd={alignment} />;
         })}
       </div>
     </section>

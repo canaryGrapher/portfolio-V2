@@ -3,12 +3,13 @@ import Image from "next/image";
 
 //importing components
 import SkillCard from "./SkillCard";
+import ToolsandTechChart from "./ToolsandTechChart";
 
 // importing assets
 import { SelfTaughtBadge } from "../../../assets/home";
 
 //importing data
-import { skillsData } from "../../../utils/mySkills-data";
+import { skillsData, toolsAndTechnologies } from "../../../utils/mySkills-data";
 
 const SkillsSection: React.FC = () => (
   <section className="pt-28">
@@ -33,11 +34,23 @@ const SkillsSection: React.FC = () => (
         />
       </div>
     </div>
+
     <div className="pt-7">
       <h2 className="text-blue-600 text-2xl font-bold">My Skills</h2>
       <div className="grid grid-cols-4 gap-10 pt-5">
         {skillsData.map((skill, index) => (
-          <SkillCard {...skill} />
+          <SkillCard key={index} {...skill} />
+        ))}
+      </div>
+    </div>
+
+    <div className="pt-7">
+      <h2 className="text-blue-600 text-2xl font-bold">
+        Tools and Technologies
+      </h2>
+      <div className="flex flex-col">
+        {toolsAndTechnologies.map((tool, index) => (
+          <ToolsandTechChart key={index} {...tool} />
         ))}
       </div>
     </div>

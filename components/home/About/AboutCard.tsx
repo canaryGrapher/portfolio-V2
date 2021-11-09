@@ -5,7 +5,7 @@ import Image from "next/image";
 import { IAboutCard } from "../../../interfaces/home";
 
 const AboutCard: React.FC<IAboutCard> = (props) => (
-  <div className="py-2 w-10/12 mx-auto">
+  <div className="py-2 mx-auto">
     <div
       className={
         props.odd ? "card flex flex-row-reverse" : "card flex flex-row"
