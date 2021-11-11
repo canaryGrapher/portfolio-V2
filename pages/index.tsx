@@ -5,6 +5,8 @@ import React from "react";
 import LandingBanner from "../components/home/Landing/LandingBanner";
 import AboutSection from "../components/home/About/AboutSection";
 import SkillsSection from "../components/home/Skills/SkillsSection";
+import ExperienceSection from "../components/home/Experience/ExperienceSection";
+import FlauntSection from "../components/home/Flaunt/FlauntSection";
 
 const IndexPage = () => (
   <React.Fragment>
@@ -17,6 +19,8 @@ const IndexPage = () => (
       <LandingBanner />
       <AboutSection />
       <SkillsSection />
+      <ExperienceSection />
+      <FlauntSection />
     </div>
   </React.Fragment>
 );

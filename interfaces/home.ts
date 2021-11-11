@@ -22,3 +22,18 @@ export type IToolsandTechnologies = {
   title: string;
   tools: string[];
 }
+
+export type IExperience = {
+  name: string;
+  designation: string;
+  role: string;
+  timeline: string;
+  description: string;
+  image: string;
+}
+
+export type IFlaunt = {
+  title: string;
+  description: string;
+  image: string;
+}
