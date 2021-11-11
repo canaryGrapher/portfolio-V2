@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
     <div className="overflow-x-hidden">
       <Navbar />
       <Component {...pageProps} />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

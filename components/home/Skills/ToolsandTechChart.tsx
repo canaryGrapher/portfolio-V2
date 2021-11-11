@@ -9,8 +9,10 @@ const ToolsandTechChart: React.FC<IToolsandTechnologies> = (props) => (
       <p className="font-bold">{props.title}</p>
     </div>
     <div className="w-10/12 flex flex-row pl-8">
-      {props.tools.map((tool) => (
-        <p className="px-2 py-1 mr-4 border-2 border-gray-500">{tool}</p>
+      {props.tools.map((tool, index) => (
+        <p key={index} className="px-2 py-1 mr-4 border-2 border-gray-500">
+          {tool}
+        </p>
       ))}
     </div>
   </div>

@@ -7,6 +7,7 @@ import AboutSection from "../components/home/About/AboutSection";
 import SkillsSection from "../components/home/Skills/SkillsSection";
 import ExperienceSection from "../components/home/Experience/ExperienceSection";
 import FlauntSection from "../components/home/Flaunt/FlauntSection";
+import ContactSection from "../components/home/Contact/ContactSection";
 
 const IndexPage = () => (
   <React.Fragment>
@@ -21,6 +22,7 @@ const IndexPage = () => (
       <SkillsSection />
       <ExperienceSection />
       <FlauntSection />
+      <ContactSection />
     </div>
   </React.Fragment>
 );

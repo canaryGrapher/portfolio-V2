@@ -36,4 +36,5 @@ export type IFlaunt = {
   title: string;
   description: string;
   image: string;
+  link: string;
 }
