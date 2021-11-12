@@ -6,7 +6,7 @@ import {
   FaDiscord,
   FaEnvelope,
   FaGithub,
-  FaStackOverflow,
+  FaTwitter,
   FaNpm,
   FaMedium,
   FaCalendarDay,
@@ -16,8 +16,8 @@ const ContactSection: React.FC = () => (
   <section className="pt-10">
     <h2 className="text-blue-600 text-2xl font-bold">Let's Connect</h2>
     <p className="w-2/4">
-      Wanna connect? Ping me on anyone of the social media handles. I promise
-      I'll try not to be boring.
+      Wanna connect? Ping or follow me on anyone of the social media handles. I
+      promise I'll try not to be boring.
     </p>
     <div className="mt-7 grid grid-cols-4 gap-10">
       <div className="flex flex-col justify-center text-center font-medium">
@@ -37,8 +37,8 @@ const ContactSection: React.FC = () => (
         <p>Github</p>
       </div>
       <div className="flex flex-col justify-center text-center font-medium">
-        <FaStackOverflow size={"3em"} className="mx-auto my-5" />
-        <p>Stackoverflow</p>
+        <FaTwitter size={"3em"} className="mx-auto my-5" />
+        <p>Twitter</p>
       </div>
       <div className="flex flex-col justify-center text-center font-medium">
         <FaNpm size={"3em"} className="mx-auto my-5" />

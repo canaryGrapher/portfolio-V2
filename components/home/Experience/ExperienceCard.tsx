@@ -16,7 +16,12 @@ const ExperienceCard: React.FC<IExperience> = (props) => (
           {props.timeline}
         </p>
       </div>
-      <p className="text-blue-600 font-medium">{props.designation}</p>
+      <p className="text-blue-600 font-medium">
+        {props.designation}
+        <span className="text-gray-400 font-normal text-xs ml-1">
+          - {props.role}
+        </span>
+      </p>
       <p>{props.description}</p>
     </div>
   </div>
