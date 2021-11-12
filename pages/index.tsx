@@ -1,5 +1,6 @@
-import Head from "next/head";
 import React from "react";
+import Head from "next/head";
+import { NextPage } from "next";
 
 //importing components
 import LandingBanner from "../components/home/Landing/LandingBanner";
@@ -9,7 +10,7 @@ import ExperienceSection from "../components/home/Experience/ExperienceSection";
 import FlauntSection from "../components/home/Flaunt/FlauntSection";
 import ContactSection from "../components/home/Contact/ContactSection";
 
-const IndexPage = () => (
+const IndexPage: NextPage = () => (
   <React.Fragment>
     <Head>
       <title>Yash Aryan</title>

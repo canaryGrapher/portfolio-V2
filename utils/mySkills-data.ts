@@ -1,5 +1,4 @@
 // importing types
-
 import { ISkills, IToolsandTechnologies } from "../interfaces/home";
 
 const skillsData: ISkills[] = [
