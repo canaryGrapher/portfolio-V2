@@ -46,8 +46,12 @@ const toolsAndTechnologies: IToolsandTechnologies[] = [
         tools: ["C++", "JavaScript", "Python", "TypeScript", "Solidity*", "Go*"]
     },
     {
-        title: "Technologies/Platforms",
-        tools: ["Blockchain", "Arduino"]
+        title: "Technologies",
+        tools: ["Blockchain*"]
+    },
+    {
+        title: "Hardware",
+        tools: ["Arduino"]
     },
     {
         title: "Server Management",

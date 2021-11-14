@@ -2,11 +2,11 @@ import React from "react";
 
 const Footer: React.FC = () => (
   <footer>
-    <div className="bg-black w-screen h-44 text-gray-300 mt-40 flex">
-      <div className="w-4/12 text-center flex flex-col justify-center">
-        <div className="max-w-max text-left mx-auto">
+    <div className="bg-black w-screen min-h-max text-gray-300 mt-40 flex flex-col md:flex-row py-5 md:py-16">
+      <div className="w-full md:w-4/12 text-center flex flex-col justify-center">
+        <div className="max-w-max text-center md:text-left mx-auto">
           <p className="text-3xl font-bold">Yash Aryan</p>
-          <div>
+          <div className="text-center md:text-left pb-2 md:pb-0">
             <p className="font-medium">
               <span className="text-green-500">Designer</span> |{" "}
               <span className="text-green-500">Developer</span> |{" "}
@@ -16,30 +16,30 @@ const Footer: React.FC = () => (
           </div>
         </div>
       </div>
-      <div className="w-8/12 flex flex-col justify-center">
-        <div className="max-w-max text-right mx-auto">
+      <div className="w-full md:w-8/12 flex flex-col justify-center">
+        <div className="max-w-max text-center md:text-right mx-auto px-3 md:px-0">
           <blockquote>
-            <span className="font-normal text-lg">
+            <span className="font-normal text-lg text-gray-500">
               "People don't care about what you say, they care about what you
               build."
             </span>
-            <br />- <span className="text-blue-600 mr-5">Mark Zuckerberg</span>
+            <br />- <span className="text-blue-300 mr-5">Mark Zuckerberg</span>
           </blockquote>
-          <div className="text-center mt-2">
-            <p className="text-gray-500">
-              Email me on{" "}
-              <a className="text-green-300" href="mailto:mail@yasharyan.com">
-                mail@yasharyan.com
-              </a>
-            </p>
-          </div>
         </div>
       </div>
     </div>
     <div className="w-screen bg-gray-400 py-2">
       <p className="text-lg text-center">
-        Created by <span className="font-medium ">Yash Aryan</span>
+        Created by <span className="font-black">Yash Aryan</span>
       </p>
+      <div className="text-center">
+        <p className="text-black">
+          Reach me at{" "}
+          <a className="text-blue-600" href="mailto:mail@yasharyan.com">
+            mail@yasharyan.com
+          </a>
+        </p>
+      </div>
     </div>
   </footer>
 );

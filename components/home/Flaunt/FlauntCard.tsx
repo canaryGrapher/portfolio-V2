@@ -5,15 +5,15 @@ import { IFlaunt } from "interfaces/home";
 
 const FlauntCard: React.FC<IFlaunt> = (props) => (
   <div
-    className="flex w-full my-5 p-16"
+    className="flex w-full my-5 p-5 md:p-16 h-96"
     style={{
-      height: "70vh",
+      // height: "70vh",
       backgroundImage: `url(${props.image})`,
       backgroundSize: "cover",
       backgroundPosition: "center",
     }}
   >
-    <div className="flex flex-col justify-center w-6/12">
+    <div className="flex flex-col justify-center w-full md:w-6/12">
       <h3 className="text-6xl font-bold">{props.title}</h3>
       <p className="text-2xl font-medium pt-2">{props.description}</p>
       <div className="mt-4 border-2 border-white max-w-max px-3 py-2 rounded-lg hover:bg-white hover:text-black cursor-pointer">

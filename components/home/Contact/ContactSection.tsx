@@ -15,11 +15,11 @@ import {
 const ContactSection: React.FC = () => (
   <section className="pt-10">
     <h2 className="text-blue-600 text-2xl font-bold">Let's Connect</h2>
-    <p className="w-2/4">
+    <p className="w-full md:w-2/4">
       Wanna connect? Ping or follow me on anyone of the social media handles. I
       promise I'll try not to be boring.
     </p>
-    <div className="mt-7 grid grid-cols-4 gap-10">
+    <div className="mt-7 grid grid-cols-4 md:grid-cols-4 gap-10">
       <div className="flex flex-col justify-center text-center font-medium">
         <FaLinkedin size={"3em"} className="mx-auto my-5" />
         <p>LinkedIn</p>

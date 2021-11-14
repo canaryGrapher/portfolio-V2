@@ -13,8 +13,8 @@ import { skillsData, toolsAndTechnologies } from "../../../utils/mySkills-data";
 
 const SkillsSection: React.FC = () => (
   <section className="pt-28">
-    <div className="w-full flex flex-row">
-      <div className="w-1/2 flex flex-col justify-center">
+    <div className="w-full flex flex-col md:flex-row">
+      <div className="w-full md:w-1/2 flex flex-col justify-center">
         <h2 className="text-blue-600 text-4xl font-bold">Skills</h2>
         <p>
           I am a self-taught human. With learning to drive a car on my own to
@@ -25,7 +25,7 @@ const SkillsSection: React.FC = () => (
           open-learning world.
         </p>
       </div>
-      <div className="w-1/2 text-center">
+      <div className="w-full md:w-1/2 text-center">
         <Image
           src={SelfTaughtBadge}
           alt="Self-Taught Badge"
@@ -37,7 +37,7 @@ const SkillsSection: React.FC = () => (
 
     <div className="pt-7">
       <h2 className="text-blue-600 text-2xl font-bold">My Skills</h2>
-      <div className="grid grid-cols-4 gap-10 pt-5">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-10 pt-5">
         {skillsData.map((skill, index) => (
           <SkillCard key={index} {...skill} />
         ))}
