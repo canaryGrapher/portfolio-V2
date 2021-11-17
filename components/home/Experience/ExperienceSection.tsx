@@ -10,7 +10,7 @@ import {
 } from "../../../utils/myExperience-data";
 
 const ExperienceSection: React.FC = () => (
-  <section className="pt-10">
+  <section className="pt-10" id="experience">
     <h2 className="text-blue-600 text-2xl font-bold">Experience</h2>
     <p>
       I learn best by practical applications. Here are the both formal, as well

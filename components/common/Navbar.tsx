@@ -19,13 +19,13 @@ const Navbar = () => (
         </div>
         {/* Navbar for large screen devices */}
         <div className="self-center ml-6 font-medium hidden md:flex">
-          <Link href="/">
+          <Link href="/#about">
             <a className="mr-10 text-lg hover:text-blue-400">About</a>
           </Link>
-          <Link href="/">
+          <Link href="/#skills">
             <a className="mr-10 text-lg hover:text-blue-400">Skills</a>
           </Link>
-          <Link href="/">
+          <Link href="/#experience">
             <a className="mr-10 text-lg hover:text-blue-400">Experience</a>
           </Link>
           <Link href="/projects">

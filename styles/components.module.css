@@ -1,0 +1,30 @@
+.connect::before,
+.connect::after,
+    {
+    content      : '';
+    width        : 10px;
+    height       : 10px;
+    text-align   : center;
+    line-height  : 10px;
+    border-radius: 5px;
+    background   : orange;
+    margin       : 0;
+    display      : inline-block;
+    position     : absolute;
+    top          : -4px;
+}
+
+.connect::before {
+    left: -5px;
+}
+
+.connect::after {
+    right: -5px;
+}
+
+.connect {
+    width     : 150px;
+    height    : 2px;
+    background: rgb(148, 59, 59);
+    position  : relative;
+}
