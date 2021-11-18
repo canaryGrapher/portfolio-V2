@@ -18,7 +18,6 @@ const CertificateSection: React.FC = () => (
         {certificateData.map((project, index) => (
           <CertificateCards key={index} {...project} />
         ))}
-        {/* <CertificateCards */}
       </div>
     </div>
     <div className="text-center max-w-max mx-auto w-3/4 pt-24">
