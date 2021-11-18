@@ -3,14 +3,15 @@ import React from "react";
 //importing icons
 import {
   FaLinkedin,
-  FaDiscord,
   FaEnvelope,
   FaGithub,
   FaTwitter,
   FaNpm,
   FaMedium,
-  FaCalendarDay,
+  FaStackOverflow,
+  FaCalendarPlus,
 } from "react-icons/fa";
+import { SiDevdotto } from "react-icons/si";
 
 const ContactSection: React.FC = () => (
   <section className="pt-10">
@@ -20,38 +21,85 @@ const ContactSection: React.FC = () => (
       promise I'll try not to be boring.
     </p>
     <div className="mt-7 grid grid-cols-4 md:grid-cols-4 gap-10">
-      <div className="flex flex-col justify-center text-center font-medium">
+      <a
+        href="https://www.linkedin.com/in/yasharyan/"
+        target="_blank"
+        className="max-w-max px-10  mx-auto flex flex-col justify-center text-center font-medium hover:bg-gray-200 hover:text-black"
+      >
         <FaLinkedin size={"3em"} className="mx-auto my-5" />
         <p>LinkedIn</p>
-      </div>
-      <div className="flex flex-col justify-center text-center font-medium">
-        <FaDiscord size={"3em"} className="mx-auto my-5" />
-        <p>Discord</p>
-      </div>
-      <div className="flex flex-col justify-center text-center font-medium">
+      </a>
+      <a
+        href="https://dev.to/canarygrapher"
+        target="_blank"
+        className="max-w-max px-10  mx-auto flex flex-col justify-center text-center font-medium hover:bg-gray-200 hover:text-black"
+      >
+        <SiDevdotto size={"3em"} className="mx-auto my-5" />
+        <p>Dev.to</p>
+      </a>
+      <a
+        href="mailto:mail@yasharyan.com"
+        target="_blank"
+        className="max-w-max px-10  mx-auto flex flex-col justify-center text-center font-medium hover:bg-gray-200 hover:text-black"
+      >
         <FaEnvelope size={"3em"} className="mx-auto my-5" />
         <p>Email</p>
-      </div>
-      <div className="flex flex-col justify-center text-center font-medium">
+      </a>
+      <a
+        href="https://github.com/canaryGrapher/"
+        target="_blank"
+        className="max-w-max px-10  mx-auto flex flex-col justify-center text-center font-medium hover:bg-gray-200 hover:text-black"
+      >
         <FaGithub size={"3em"} className="mx-auto my-5" />
         <p>Github</p>
-      </div>
-      <div className="flex flex-col justify-center text-center font-medium">
+      </a>
+      <a
+        href="https://twitter.com/canaryGrapher"
+        target="_blank"
+        className="max-w-max px-10  mx-auto flex flex-col justify-center text-center font-medium hover:bg-gray-200 hover:text-black"
+      >
         <FaTwitter size={"3em"} className="mx-auto my-5" />
         <p>Twitter</p>
-      </div>
-      <div className="flex flex-col justify-center text-center font-medium">
+      </a>
+      <a
+        href="https://www.npmjs.com/~canarygrapher"
+        target="_blank"
+        className="max-w-max px-10  mx-auto flex flex-col justify-center text-center font-medium hover:bg-gray-200 hover:text-black"
+      >
         <FaNpm size={"3em"} className="mx-auto my-5" />
         <p>NpmJS</p>
-      </div>
-      <div className="flex flex-col justify-center text-center font-medium">
+      </a>
+      <a
+        href="https://medium.com/@theprogrammersrant"
+        target="_blank"
+        className="max-w-max px-10  mx-auto flex flex-col justify-center text-center font-medium hover:bg-gray-200 hover:text-black"
+      >
         <FaMedium size={"3em"} className="mx-auto my-5" />
         <p>Medium</p>
-      </div>
-      <div className="flex flex-col justify-center text-center font-medium">
-        <FaCalendarDay size={"3em"} className="mx-auto my-5" />
-        <p>Calendly</p>
-      </div>
+      </a>
+      <a
+        href="https://stackoverflow.com/users/11288471/canarygrapher"
+        target="_blank"
+        className="max-w-max px-10  mx-auto flex flex-col justify-center text-center font-medium hover:bg-gray-200 hover:text-black"
+      >
+        <FaStackOverflow size={"3em"} className="mx-auto my-5" />
+        <p>StackOverflow</p>
+      </a>
+    </div>
+    <hr className="my-7" />
+    <div className="w-full text-center">
+      <p className="text-xl font-bold">Wanna talk?</p>
+      <p>
+        Schedule a meetup on Calendly.{" "}
+        <a
+          href="https://calendly.com/yasharyan"
+          target="_blank"
+          className="text-blue-600 hover:bg-gray-200 flex flex-col max-w-max p-3 mx-auto mt-2 border-2 border-blue-600 hover:border-gray-200"
+        >
+          <FaCalendarPlus size={"2em"} className="mx-auto" />
+          Schedule now
+        </a>
+      </p>
     </div>
   </section>
 );

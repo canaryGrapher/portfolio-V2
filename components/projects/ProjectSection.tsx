@@ -4,17 +4,17 @@ import React from "react";
 import ProjectCards from "./ProjectCards";
 
 //importing data
-import { projectsData } from "../../utils/projects-data";
+import { projectsData } from "../../utils/myProjects-data";
 
 const ProjectSection: React.FC = () => (
-  <section className="">
+  <section className="pt-16">
     <div className="mt-16">
       <h1 className="text-3xl font-medium uppercase">Projects</h1>
       <p className="text-gray-300">
         I try to apply all my learned topics into practice by creating simple
         projects. Here are some of my favorite ones.
       </p>
-      <div className="mt-5 grid grid-cols-3 gap-5">
+      <div className="mt-5 grid grid-cols-3 gap-x-3 gap-y-7">
         {projectsData.map((project, index) => (
           <ProjectCards key={index} {...project} />
         ))}
