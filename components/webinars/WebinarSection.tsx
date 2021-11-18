@@ -1,22 +1,22 @@
 import React from "react";
 
 //importing components
-import CertificateCards from "./CertificateCards";
+import WebinarCards from "./WebinarCards";
 
 //importing data
-import { certificateData } from "../../utils/myCertificate-data";
+import { webinarData } from "../../utils/myWebinars-data";
 
-const CertificateSection: React.FC = () => (
+const WebinarSection: React.FC = () => (
   <section className="pt-16 min-h-screen">
     <div className="py-16">
-      <h1 className="text-3xl font-medium uppercase">Certificates</h1>
+      <h1 className="text-3xl font-medium uppercase">Webinars</h1>
       <p className="text-gray-300">
-        I do a lot of online courses to expand my knowledge about different
-        fields of study. These are my achievements.
+        I like interacting with people and believe in open education. Every now
+        and then, I share whatever I know through webinars
       </p>
       <div className="py-5 grid grid-cols-4 gap-5">
-        {certificateData.map((certificate, index) => (
-          <CertificateCards key={index} {...certificate} />
+        {webinarData.map((webinar, index) => (
+          <WebinarCards key={index} {...webinar} />
         ))}
       </div>
     </div>
@@ -33,4 +33,4 @@ const CertificateSection: React.FC = () => (
   </section>
 );
 
-export default CertificateSection;
+export default WebinarSection;

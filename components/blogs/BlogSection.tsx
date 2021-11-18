@@ -11,8 +11,8 @@ const BlogSection: React.FC = () => (
     <div className="mt-16">
       <h1 className="text-3xl font-medium uppercase">Blogs</h1>
       <p className="text-gray-300">
-        I love exploring new technologies and writing about them. Here are some
-        of them.
+        I write about my experiences and learnings. Here are some of my favorite
+        ones.
       </p>
       <div className="mt-5 grid grid-cols-4 gap-x-3 gap-y-7">
         {/* {projectsData.map((project, index) => (
