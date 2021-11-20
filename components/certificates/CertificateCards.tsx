@@ -5,12 +5,12 @@ import Image from "next/image";
 import { ICertificates } from "../../interfaces/certificates";
 
 const CertificateCards: React.FC<ICertificates> = (props) => (
-  <div className="flex flex-col w-full">
-    <div className="w-full">
-      <Image src={props.image} alt={props.name} width={600} height={400} />
-    </div>
-    <div className="w-full">
-      <div>
+  <div className="flex flex-col justify-between w-full">
+    <div className="flex flex-col justify-start">
+      <div className="w-full">
+        <Image src={props.image} alt={props.name} width={600} height={400} />
+      </div>
+      <div className="w-full top-0">
         <p className="font-bold text-lg">{props.name}</p>
         <table className="table-auto">
           <tbody>
@@ -24,12 +24,14 @@ const CertificateCards: React.FC<ICertificates> = (props) => (
             </tr>
           </tbody>
         </table>
-        <a href={props.link} target="_blank">
-          <div className="px-4 py-2 bg-purple-500 hover:bg-gray-300 hover:text-black text-center w-full mt-2 rounded">
-            <p>View Certificate</p>
-          </div>
-        </a>
       </div>
+    </div>
+    <div>
+      <a href={props.link} target="_blank">
+        <div className="px-4 py-2 bg-purple-500 hover:bg-gray-300 hover:text-black text-center w-full mt-2 rounded">
+          <p>View Certificate</p>
+        </div>
+      </a>
     </div>
   </div>
 );
