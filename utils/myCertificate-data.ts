@@ -75,197 +75,197 @@ const certificateData: ICertificates[] = [
     {
         name: "Succeesing in DevOps",
         organization: "LinkedIn",
-        issuedDate: "",
+        issuedDate: "May 2021",
         link: "",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/yash_0OaJ0OZgbB3.png?updatedAt=1636352713644"
     },
     {
         name: "React:Server-Side Rendering (2018)",
         organization: "LinkedIn",
-        issuedDate: "",
+        issuedDate: "May 2021",
         link: "",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/yash_0OaJ0OZgbB3.png?updatedAt=1636352713644"
     },
     {
         name: "React: Ecosystems",
         organization: "LinkedIn",
-        issuedDate: "",
+        issuedDate: "May 2021",
         link: "",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/yash_0OaJ0OZgbB3.png?updatedAt=1636352713644"
     },
     {
         name: "React.js: Building an Interface",
         organization: "LinkedIn",
-        issuedDate: "",
+        issuedDate: "May 2021",
         link: "",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/yash_0OaJ0OZgbB3.png?updatedAt=1636352713644"
     },
     {
         name: "Learning Node.js",
         organization: "LinkedIn",
-        issuedDate: "",
+        issuedDate: "May 2021",
         link: "",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/yash_0OaJ0OZgbB3.png?updatedAt=1636352713644"
     },
     {
         name: "Inclusive Tech: Building Your Team",
         organization: "LinkedIn",
-        issuedDate: "",
+        issuedDate: "May 2021",
         link: "",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/yash_0OaJ0OZgbB3.png?updatedAt=1636352713644"
     },
     {
         name: "GraphQL Essential Training",
         organization: "LinkedIn",
-        issuedDate: "",
+        issuedDate: "May 2021",
         link: "",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/yash_0OaJ0OZgbB3.png?updatedAt=1636352713644"
     },
     {
         name: "Git Essential Training: The Basics",
         organization: "LinkedIn",
-        issuedDate: "",
+        issuedDate: "May 2021",
         link: "",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/yash_0OaJ0OZgbB3.png?updatedAt=1636352713644"
     },
     {
         name: "Learning npm the Node Package Manager",
         organization: "LinkedIn",
-        issuedDate: "",
+        issuedDate: "June 2021",
         link: "",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/yash_0OaJ0OZgbB3.png?updatedAt=1636352713644"
     },
     {
         name: "Algorithmic Thinking (Part 1)",
         organization: "Coursera",
-        issuedDate: "",
-        link: "",
+        issuedDate: "September 2021",
+        link: "https://www.coursera.org/account/accomplishments/certificate/NFFNRJB5BHT4",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/yash_0OaJ0OZgbB3.png?updatedAt=1636352713644"
     },
     {
         name: "Algorithmic Thinking (Part 2)",
         organization: "Coursera",
-        issuedDate: "",
-        link: "",
-        image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/yash_0OaJ0OZgbB3.png?updatedAt=1636352713644"
-    },
-    {
-        name: "Principles of Computing (Part 2)",
-        organization: "Coursera",
-        issuedDate: "",
-        link: "",
+        issuedDate: "November 2021",
+        link: "https://www.coursera.org/account/accomplishments/certificate/EAGG5MHQ2BEV",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/yash_0OaJ0OZgbB3.png?updatedAt=1636352713644"
     },
     {
         name: "Principles of Computing (Part 1)",
         organization: "Coursera",
-        issuedDate: "",
-        link: "",
+        issuedDate: "May 2021",
+        link: "https://www.coursera.org/account/accomplishments/certificate/J64R9JYX9GA2",
+        image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/yash_0OaJ0OZgbB3.png?updatedAt=1636352713644"
+    },
+    {
+        name: "Principles of Computing (Part 2)",
+        organization: "Coursera",
+        issuedDate: "October 2021",
+        link: "https://www.coursera.org/account/accomplishments/certificate/SD5SNSAXQCUF",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/yash_0OaJ0OZgbB3.png?updatedAt=1636352713644"
     },
     {
         name: "An Introduction to Interactive Programming in Python (Part 1)",
         organization: "Coursera",
-        issuedDate: "",
-        link: "",
+        issuedDate: "April 2021",
+        link: "https://www.coursera.org/account/accomplishments/certificate/VM6EGTHRG2DU",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/yash_0OaJ0OZgbB3.png?updatedAt=1636352713644"
     },
     {
         name: "An Introduction to Interactive Programming in Python (Part 2)",
         organization: "Coursera",
-        issuedDate: "",
-        link: "",
+        issuedDate: "May 2021",
+        link: "https://www.coursera.org/account/accomplishments/certificate/E2VBF44TF32D",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/yash_0OaJ0OZgbB3.png?updatedAt=1636352713644"
     },
     {
         name: "Getting Started with Go",
         organization: "Coursera",
-        issuedDate: "",
-        link: "",
+        issuedDate: "October 2020",
+        link: "https://www.coursera.org/account/accomplishments/certificate/MCZ7SAEVQRJD",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/yash_0OaJ0OZgbB3.png?updatedAt=1636352713644"
     },
     {
         name: "Blockchain Platforms",
         organization: "Coursera",
-        issuedDate: "",
-        link: "",
+        issuedDate: "May 2020",
+        link: "https://www.coursera.org/account/accomplishments/certificate/XG7EVU4CCP73",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/yash_0OaJ0OZgbB3.png?updatedAt=1636352713644"
     },
     {
         name: "Blockchain Specialization",
         organization: "Coursera",
-        issuedDate: "",
-        link: "",
+        issuedDate: "May 2020",
+        link: "https://www.coursera.org/account/accomplishments/specialization/certificate/PP6JELVRVAHC",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/yash_0OaJ0OZgbB3.png?updatedAt=1636352713644"
     },
     {
         name: "Decentralized Applications (Dapps)",
         organization: "Coursera",
-        issuedDate: "",
-        link: "",
+        issuedDate: "May 2020",
+        link: "https://www.coursera.org/account/accomplishments/certificate/24EA362GSZSF",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/yash_0OaJ0OZgbB3.png?updatedAt=1636352713644"
     },
     {
         name: "Smart Contracts",
         organization: "Coursera",
-        issuedDate: "",
-        link: "",
+        issuedDate: "May 2020",
+        link: "https://www.coursera.org/account/accomplishments/certificate/QA8SSY93WSSZ",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/yash_0OaJ0OZgbB3.png?updatedAt=1636352713644"
     },
     {
         name: "Blockchain Basics",
         organization: "Coursera",
-        issuedDate: "",
-        link: "",
+        issuedDate: "March 2020",
+        link: "https://www.coursera.org/account/accomplishments/verify/7MX9V5K68364",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/yash_0OaJ0OZgbB3.png?updatedAt=1636352713644"
     },
     {
         name: "Front-End Web UI Framework and Tools: Bootstrap 4",
         organization: "Coursera",
-        issuedDate: "",
-        link: "",
+        issuedDate: "May 2020",
+        link: "https://www.coursera.org/account/accomplishments/certificate/VDT9F9QAUHBB",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/yash_0OaJ0OZgbB3.png?updatedAt=1636352713644"
     },
     {
         name: "Visual Elements of User Interface Designs",
         organization: "Coursera",
-        issuedDate: "",
-        link: "",
+        issuedDate: "April 2020",
+        link: "https://www.coursera.org/account/accomplishments/certificate/6K7UTD4JL3JD",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/yash_0OaJ0OZgbB3.png?updatedAt=1636352713644"
     },
     {
         name: "Interactivity with JavaScript",
         organization: "Coursera",
-        issuedDate: "",
-        link: "",
+        issuedDate: "August 2019",
+        link: "https://www.coursera.org/account/accomplishments/verify/AAEMW7SD97W7",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/yash_0OaJ0OZgbB3.png?updatedAt=1636352713644"
     },
     {
         name: "Python Data Structures",
         organization: "Coursera",
-        issuedDate: "",
-        link: "",
+        issuedDate: "June 2019",
+        link: "https://www.coursera.org/account/accomplishments/verify/2RTLH5ZVUHA6",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/yash_0OaJ0OZgbB3.png?updatedAt=1636352713644"
     },
     {
         name: "Introduction to CSS3",
         organization: "Coursera",
-        issuedDate: "",
-        link: "",
+        issuedDate: "May 2019",
+        link: "https://www.coursera.org/account/accomplishments/verify/4RGQMJ2CAHZ3",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/yash_0OaJ0OZgbB3.png?updatedAt=1636352713644"
     },
     {
-        name: "Programminfg for Everybody (Getting Started with Python)",
+        name: "Programming for Everybody (Getting Started with Python)",
         organization: "Coursera",
-        issuedDate: "",
-        link: "",
+        issuedDate: "May 2019",
+        link: "https://www.coursera.org/account/accomplishments/verify/LFUDUG5ZDC83",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/yash_0OaJ0OZgbB3.png?updatedAt=1636352713644"
     },
 
     {
         name: "Full Stack Web Development with Node.js, Express.js, React.js and MySQL",
-        organization: "",
-        issuedDate: "",
+        organization: "IECSE Manipal",
+        issuedDate: "March 2019",
         link: "",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/yash_0OaJ0OZgbB3.png?updatedAt=1636352713644"
     },
