@@ -8,7 +8,13 @@ const CertificateCards: React.FC<ICertificates> = (props) => (
   <div className="flex flex-col justify-between w-full">
     <div className="flex flex-col justify-start">
       <div className="w-full">
-        <Image src={props.image} alt={props.name} width={600} height={400} />
+        <Image
+          src={props.image}
+          alt={props.name}
+          width={16}
+          height={9}
+          layout="responsive"
+        />
       </div>
       <div className="w-full top-0">
         <p className="font-bold text-lg">{props.name}</p>
