@@ -4,21 +4,33 @@ import React from "react";
 import CertificateCards from "./CertificateCards";
 
 //importing data
-import { certificateData } from "../../utils/myCertificate-data";
+import {
+  certificateData,
+  distinctIssuers,
+} from "../../utils/myCertificate-data";
 
 const CertificateSection: React.FC = () => (
   <section className="pt-16 min-h-screen">
     <div className="py-16">
       <h1 className="text-3xl font-medium uppercase">Certificates</h1>
-      <p className="text-gray-300">
+      <p className="text-gray-300 pb-10">
         I do a lot of online courses to expand my knowledge about different
         fields of study. These are my achievements.
       </p>
-      <div className="py-5 grid grid-cols-4 gap-5">
-        {certificateData.map((certificate, index) => (
-          <CertificateCards key={index} {...certificate} />
-        ))}
-      </div>
+
+      {distinctIssuers.map((issuer, indexOuter) => (
+        <div className="pb-10" key={indexOuter}>
+          <p className="text-gray-400">Issued by</p>
+          <p className="text-2xl font-black pb-2">{issuer}</p>
+          <div className="py-1 grid grid-cols-4 gap-5">
+            {certificateData.map((certificate, indexInner) =>
+              certificate.organization === issuer ? (
+                <CertificateCards key={indexInner} {...certificate} />
+              ) : null
+            )}
+          </div>
+        </div>
+      ))}
     </div>
     <div className="text-center max-w-max mx-auto w-3/4 pt-24">
       <blockquote>
