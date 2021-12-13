@@ -22,7 +22,7 @@ const CertificateSection: React.FC = () => (
         <div className="pb-10" key={indexOuter}>
           <p className="text-gray-400">Issued by</p>
           <p className="text-2xl font-black pb-2">{issuer}</p>
-          <div className="py-1 grid grid-cols-4 gap-5">
+          <div className="py-1 grid grid-cols-1 md:grid-cols-4 gap-5">
             {certificateData.map((certificate, indexInner) =>
               certificate.organization === issuer ? (
                 <CertificateCards key={indexInner} {...certificate} />

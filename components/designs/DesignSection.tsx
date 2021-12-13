@@ -14,7 +14,7 @@ const DesignSection: React.FC = () => (
         I create UI designs when I have free time or when the project demands.
         Here are a few of them.
       </p>
-      <div className="py-5 grid grid-cols-2 gap-5">
+      <div className="py-5 grid grid-cols-1 md:grid-cols-2 gap-5">
         {designData.map((design, index) => (
           <DesignCards key={index} {...design} />
         ))}

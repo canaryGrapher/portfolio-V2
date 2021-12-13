@@ -12,7 +12,7 @@ const Blogs: NextPage = () => (
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
-    <div className="px-20 md:px-32 text-gray-200">
+    <div className="px-5 md:px-20 lg:px-32 text-gray-200">
       <BlogSection />
     </div>
   </React.Fragment>
