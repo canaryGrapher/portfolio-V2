@@ -23,7 +23,7 @@ const ExperienceCard: React.FC<IExperience> = (props) => (
             - {props.role}
           </span>
         </p>
-        <p>{props.description}</p>
+        <p className="text-justify">{props.description}</p>
       </div>
     </div>
     <div className="w-full flex flex-col md:hidden border border-gray-200 p-5 my-3">

@@ -16,13 +16,13 @@ const SkillsSection: React.FC = () => (
     <div className="w-full flex flex-col md:flex-row">
       <div className="w-full md:w-1/2 flex flex-col justify-center">
         <h2 className="text-blue-600 text-4xl font-bold">Skills</h2>
-        <p>
-          I am a self-taught human. With learning to drive a car on my own to
-          making fullstack web-apps, I have taught myself everything by looking
-          at others do it, with occasional guidance from an experienced person.
-          Youtube, Coursera, Udemy, EdX, Linkedin Learning, Stackoverflow and
-          Reddit have been my greatest teachers and I believe in an
-          open-learning world.
+        <p className="text-justify">
+          I am a self-taught person. From learning to drive a car on my own to
+          making fullstack web-apps, I have taught myself everything by
+          observing others doing it, with occasional guidance from an
+          experienced person. Youtube, Coursera, Udemy, EdX, Linkedin Learning,
+          Stackoverflow and Reddit have been my greatest teachers and I believe
+          in an open-learning world.
         </p>
       </div>
       <div className="w-full md:w-1/2 text-center">

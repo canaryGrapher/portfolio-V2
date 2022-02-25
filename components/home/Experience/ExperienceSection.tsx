@@ -12,7 +12,7 @@ import {
 const ExperienceSection: React.FC = () => (
   <section className="pt-10" id="experience">
     <h2 className="text-blue-600 text-2xl font-bold">Experience</h2>
-    <p>
+    <p className="text-justify">
       I learn best by practical applications. Here are the both formal, as well
       as informal experiences that have taught me what I know today.
     </p>

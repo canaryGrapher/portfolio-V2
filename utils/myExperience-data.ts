@@ -4,6 +4,14 @@ import { IExperience } from "../interfaces/home"
 // Formal Experiences
 const myExperience: IExperience[] = [
     {
+        name: "Alyssum Global Services",
+        designation: "DevOps Engineer",
+        role: "Intern",
+        timeline: "February 2022 - present",
+        description: "Alyssum Global Services is an application development, big data, machine learning, cloud computing, DevOps, Cybersecurity consulting organisation.",
+        image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/Experience/Formal/Alyssum_Global_Bmrb5AIJQ?ik-sdk-version=javascript-1.4.3&updatedAt=1645818881826",
+    },
+    {
         name: "Indian Institute of Science (IISc) Bangalore",
         designation: 'Full stack Developer',
         role: "Trainee",

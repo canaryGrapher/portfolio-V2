@@ -22,13 +22,13 @@ const AboutSection: React.FC = () => {
         {aboutData.map((item, index) => {
           const alignment = index % 2 === 0 ? false : true;
           return (
-            <React.Fragment>
+            <React.Fragment key={index}>
               {index != 0 && (
                 <div className="w-full flex justify-center p-0 m-0">
                   <Image
                     src={Connector}
                     height={80}
-                    width={20}
+                    width={80}
                     className="mx-auto"
                   />
                 </div>
