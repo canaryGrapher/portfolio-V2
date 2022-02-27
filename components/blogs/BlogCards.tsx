@@ -29,7 +29,11 @@ const BlogCards: React.FC<IBlogs> = (props) => {
         width={500}
         height={340}
       />
-      <a href={"https://blogs.yasharyan.com/" + props.slug} target="_blank">
+      <a
+        href={"https://blogs.yasharyan.com/" + props.slug}
+        target="_blank"
+        rel="noreferrer"
+      >
         <div>
           <h2 className="text-lg text-white font-bold">{props.title}</h2>
           <p className="text-gray-400 text-justify">{props.brief}</p>
