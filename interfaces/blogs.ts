@@ -1,7 +1,11 @@
 export type IBlogs = {
     title: string;
-    description: string;
-    link: string;
-    image: string;
-    date: string;
+    brief: string;
+    slug: string;
+    coverImage: string;
+    dateAdded: Date;
+}
+
+export type IBlogResponse = {
+    posts: [IBlogs];
 }

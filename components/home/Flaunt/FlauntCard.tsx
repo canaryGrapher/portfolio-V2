@@ -21,7 +21,7 @@ const FlauntCard: React.FC<IFlaunt> = (props) => (
       </p>
       <Link href={props.link}>
         <div className="mt-4 border-2 border-white max-w-max px-3 py-2 rounded-lg hover:bg-white hover:text-black cursor-pointer">
-          <p className="font-bold">Take a peek</p>
+          <p className="font-bold">Explore</p>
         </div>
       </Link>
     </div>

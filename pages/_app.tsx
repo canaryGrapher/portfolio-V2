@@ -1,4 +1,5 @@
 import React from "react";
+import App from "next/app";
 import { AppProps } from "next/dist/shared/lib/router/router";
 
 // importing tailwind files
@@ -9,7 +10,7 @@ import "styles/globals.css";
 import Navbar from "../components/common/Navbar";
 import Footer from "../components/common/Footer";
 
-function MyApp({ Component, pageProps }: AppProps) {
+const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <div className="overflow-x-hidden">
       <Navbar />
@@ -17,6 +18,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Footer />
     </div>
   );
-}
+};
 
 export default MyApp;

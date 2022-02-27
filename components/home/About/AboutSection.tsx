@@ -22,7 +22,7 @@ const AboutSection: React.FC = () => {
         {aboutData.map((item, index) => {
           const alignment = index % 2 === 0 ? false : true;
           return (
-            <React.Fragment key={index}>
+            <div key={index}>
               {index != 0 && (
                 <div className="w-full flex justify-center p-0 m-0">
                   <Image
@@ -33,8 +33,8 @@ const AboutSection: React.FC = () => {
                   />
                 </div>
               )}
-              <AboutCard key={index} {...item} odd={alignment} />
-            </React.Fragment>
+              <AboutCard {...item} odd={alignment} key={index} />
+            </div>
           );
         })}
       </div>
