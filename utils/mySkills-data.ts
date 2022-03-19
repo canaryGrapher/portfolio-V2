@@ -31,7 +31,7 @@ const toolsAndTechnologies: IToolsandTechnologies[] = [
     },
     {
         title: "Web Dev",
-        tools: ["ReactJS", "NextJS", "GatsbyJS", "NodeJS", "ExpressJS", "NestJS"]
+        tools: ["ReactJS", "NextJS", "GatsbyJS", "NodeJS", "ExpressJS", "NestJS", "RemixJS"]
     },
     {
         title: "Databases",
@@ -43,11 +43,11 @@ const toolsAndTechnologies: IToolsandTechnologies[] = [
     },
     {
         title: "Programming Languages",
-        tools: ["C++", "JavaScript", "Python", "TypeScript", "Solidity*", "Go*"]
+        tools: ["C++", "JavaScript", "Python", "TypeScript", "Solidity", "Go*"]
     },
     {
         title: "Technologies",
-        tools: ["Blockchain*"]
+        tools: ["Git", "GitHub"]
     },
     {
         title: "Hardware",
@@ -56,6 +56,14 @@ const toolsAndTechnologies: IToolsandTechnologies[] = [
     {
         title: "Server Management",
         tools: ["Ubuntu Server", "AWS", "Vercel", "Heroku", "Cloudfare", "NGINX", "Digital Ocean"]
+    },
+    {
+        title: "Cloud Instruments",
+        tools: ["Azure ARM", "Boto3", "AWS SNS", "AWS Cloudwatch", "AWS CloudTrail", "AWS Lambda"]
+    },
+    {
+        title: "CAD",
+        tools: ["SolidWorks", "Catia", "Autodesk AutoCAD"]
     }
 
 ]

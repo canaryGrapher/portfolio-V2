@@ -1,33 +1,26 @@
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 //importing interfaces
 import { IBlogs } from "../../interfaces/blogs";
 
-const months = [
-  "January",
-  "February",
-  "March",
-  "April",
-  "May",
-  "June",
-  "July",
-  "August",
-  "September",
-  "October",
-  "November",
-  "December",
-];
+//importing constants
+import { months } from "../../constants";
+
+//importing animations
+import { zoomOnHover } from "../../animations/onHover";
 
 const BlogCards: React.FC<IBlogs> = (props) => {
   const publishedDate = new Date(props.dateAdded);
   return (
-    <div className="w-full">
+    <motion.div className="w-full" whileHover={zoomOnHover}>
       <Image
         src={props.coverImage}
         alt={props.title}
         width={500}
         height={340}
+        layout="responsive"
       />
       <a
         href={"https://blogs.yasharyan.com/" + props.slug}
@@ -46,7 +39,7 @@ const BlogCards: React.FC<IBlogs> = (props) => {
           </p>
         </div>
       </a>
-    </div>
+    </motion.div>
   );
 };
 

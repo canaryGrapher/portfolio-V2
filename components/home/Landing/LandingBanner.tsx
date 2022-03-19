@@ -1,8 +1,12 @@
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 //importing assets
 import { PictureOfYash } from "../../../assets/home";
+
+//importing animations
+import { hiddenToVisible } from "../../../animations/variants";
 
 const LandingBanner: React.FC = () => {
   return (
@@ -11,15 +15,26 @@ const LandingBanner: React.FC = () => {
         <p className="text-3xl font-medium">
           <span className="text-blue-400">Hi!</span> My name is
         </p>
-        <h1 className="text-7xl md:text-9xl font-bold mb-3">Yash Aryan.</h1>
+        <h1 className="md:text-9xl font-bold mb-3 leading-none">Yash Aryan.</h1>
         <p className="text-3xl font-medium">
           I am a <span className="text-flag-orange">full-stack developer</span>{" "}
           from <span className="text-flag-green">India</span>
         </p>
       </div>
-      <div className="flex flex-col justify-center pb-2 md:pb-0">
-        <Image src={PictureOfYash} height={700} width={607} />
-      </div>
+      <motion.div
+        className="flex flex-col justify-center pb-2 md:pb-0"
+        initial="hidden"
+        animate="visible"
+        variants={hiddenToVisible}
+      >
+        <Image
+          src={PictureOfYash}
+          height={650}
+          width={650}
+          alt="Author's picture"
+          className="rounded-full"
+        />
+      </motion.div>
     </section>
   );
 };

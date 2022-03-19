@@ -12,7 +12,7 @@ const ToolsandTechChart: React.FC<IToolsandTechnologies> = (props) => (
       {props.tools.map((tool, index) => (
         <p
           key={index}
-          className="px-2 py-1 my-1 md:my-0 mr-1 md:mr-4 border-2 border-gray-500"
+          className="px-2 py-1 my-auto mr-1 md:mr-4 border-2 border-gray-500"
         >
           {tool}
         </p>

@@ -14,7 +14,7 @@ const WebinarSection: React.FC = () => (
         I like interacting with people and believe in open education. Every now
         and then, I share whatever I know through webinars
       </p>
-      <div className="py-5 grid grid-cols-1 md:grid-cols-4 gap-5">
+      <div className="py-5 grid grid-cols-1 md:grid-cols-3 gap-10">
         {webinarData.map((webinar, index) => (
           <WebinarCards key={index} {...webinar} />
         ))}

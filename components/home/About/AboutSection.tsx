@@ -27,9 +27,10 @@ const AboutSection: React.FC = () => {
                 <div className="w-full flex justify-center p-0 m-0">
                   <Image
                     src={Connector}
-                    height={80}
-                    width={80}
+                    height={60}
+                    width={60}
                     className="mx-auto"
+                    alt="Arrow connector"
                   />
                 </div>
               )}
