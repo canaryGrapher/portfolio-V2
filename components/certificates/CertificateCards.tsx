@@ -29,7 +29,7 @@ const CertificateCards: React.FC<ICertificates> = (props) => (
       </div>
     </div>
     <div>
-      <a href={props.link} target="_blank">
+      <a href={props.link} target="_blank" rel="noreferrer">
         <div className="px-4 py-2 text-gray-800 font-medium bg-gray-300 hover:bg-green-500 text-center w-full mt-2 rounded">
           <p>View Certificate</p>
         </div>

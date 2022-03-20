@@ -15,8 +15,8 @@ const Navbar = () => (
           <GiHamburgerMenu className="text-gray-400 text-4xl mr-2" />
         </div>
         <div className="h-full hidden md:flex flex-col justify-center">
-          <Link href="/">
-            <Image src={Logo} height={50} width={65} />
+          <Link href="/" passHref>
+            <Image src={Logo} height={50} width={65} alt="Logo" />
           </Link>
         </div>
         {/* Navbar for large screen devices */}
@@ -37,6 +37,7 @@ const Navbar = () => (
             className="mr-10 text-lg hover:text-blue-400"
             href="https://blogs.yasharyan.com/"
             target="_blank"
+            rel="noreferrer"
           >
             Blog
           </a>

@@ -10,7 +10,7 @@ const aboutData: IAbout[] = [
     },
     {
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/About_Me/About2.png?updatedAt=1636366703557",
-        year: "2010s",
+        year: "2017",
         info: "I was sixteen when I first got interested in coding after I took a course on the C++ programming langauge in high school. Although I got interested in coding a bit late, my passion for computers have always been prevalent, but untouched. I was around ten when I first got my hands on a computer, a really old one, and since then, my experiments with computers have been endless."
     },
     {
@@ -31,7 +31,7 @@ const aboutData: IAbout[] = [
     {
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/About_Me/blockchain_MZ7iKgCOhz.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1647724696039",
         year: "2021",
-        info: "I started a test server at my university for under developent projects by converting an old CPU and installing Ubuntu Server on it. I did numerous rounds at the IT department to acquire a static public IP address. This was the first time I was learning about static IPs and how a system on the internet can be accessed by anyone and anywhere in the world through a static IP. I got more curious. I started learning about port forwading, proxies and reverse proxies, DNS, VPNs and various ports used other than 80 and 443. I learned how to install certificates for a website and how to deploy websites. During the summer break, I took up an internship at nonceblox Private Limited. This was my first official experience as a Web developer. THis company was working on blockchain, and I was already exploring blockchain because of an upcoming project at my university. I earned for the first time and I was doing it all while learing. I worked with Web3 and it got me fascinated. I started an all out invasion on the blockchain resources."
+        info: "I started a test server at my university for under developent projects by converting an old CPU and installing Ubuntu Server on it. I did numerous rounds at the IT department to acquire a static public IP address. This was the first time I was learning about static IPs and how a system on the internet can be accessed by anyone and anywhere in the world through a static IP. I got more curious. I started learning about port forwading, proxies and reverse proxies, DNS, VPNs and various ports used other than 80 and 443. I learned how to install certificates for a website and how to deploy websites. During the summer break, I took up an internship at nonceblox Private Limited. This was my first official experience as a Web developer. THis company was working on blockchain, and I was already exploring blockchain because of an upcoming project at my university. I earned for the first time and I was doing it all while learing. I worked with Web3 and it got me fascinated. I started an all out invasion on the blockchain resources. Meanwhile, I had to learn TypeScript and Git while doing my internship to keep up, along with various libraries like GatsbyJS and NestJS."
     }
 ]
 

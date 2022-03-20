@@ -19,7 +19,7 @@ const ProjectCards: React.FC<IProject> = (props) => (
       <a
         href={props.link}
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noreferrer"
         className="text-blue-500 hover:text-blue-200"
       >
         Source
