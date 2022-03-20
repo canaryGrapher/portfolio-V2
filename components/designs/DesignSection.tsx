@@ -23,7 +23,7 @@ const DesignSection: React.FC = () => (
     <div className="text-center max-w-max mx-auto w-3/4 pt-24">
       <blockquote>
         <span className="text-3xl font-medium">
-          “Design isn’t finished until somebody is using it.”
+          &quot;Design isn’t finished until somebody is using it.&quot;
         </span>
         <br />
         <span className="text-gray-500 text-lg">– Brenda Laurel</span>

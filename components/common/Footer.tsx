@@ -20,8 +20,8 @@ const Footer: React.FC = () => (
         <div className="max-w-max text-center md:text-right mx-auto px-3 md:px-0">
           <blockquote>
             <span className="font-normal text-lg text-gray-500">
-              "People don't care about what you say, they care about what you
-              build."
+              &quot;People don&apos;t care about what you say, they care about
+              what you build.&quot;
             </span>
             <br />- <span className="text-blue-300 mr-5">Mark Zuckerberg</span>
           </blockquote>
@@ -32,14 +32,6 @@ const Footer: React.FC = () => (
       <p className="text-lg text-center">
         Created by <span className="font-black">Yash Aryan</span>
       </p>
-      <div className="text-center">
-        <p className="text-black">
-          Reach me at{" "}
-          <a className="text-blue-600" href="mailto:mail@yasharyan.com">
-            mail@yasharyan.com
-          </a>
-        </p>
-      </div>
     </div>
   </footer>
 );

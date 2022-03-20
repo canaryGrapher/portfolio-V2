@@ -35,8 +35,8 @@ const CertificateSection: React.FC = () => (
     <div className="text-center max-w-max mx-auto w-3/4 pt-24">
       <blockquote>
         <span className="text-3xl font-medium">
-          “I am always ready to learn although I do not always like being
-          taught”
+          &quot;I am always ready to learn although I do not always like being
+          taught&quot;
         </span>
         <br />
         <span className="text-gray-500 text-lg">– Winston Churchill</span>

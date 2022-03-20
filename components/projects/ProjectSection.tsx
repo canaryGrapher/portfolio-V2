@@ -23,8 +23,8 @@ const ProjectSection: React.FC = () => (
     <div className="text-center max-w-max mx-auto w-3/4 pt-24">
       <blockquote>
         <span className="text-3xl font-medium">
-          “Every great developer you know got there by solving problems they
-          were unqualified to solve until they actually did it.”
+          &quot;Every great developer you know got there by solving problems
+          they were unqualified to solve until they actually did it.&quot;
         </span>
         <br />
         <span className="text-gray-500 text-lg">– Patrick McKenzi</span>

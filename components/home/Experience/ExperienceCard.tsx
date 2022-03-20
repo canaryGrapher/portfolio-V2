@@ -8,7 +8,13 @@ const ExperienceCard: React.FC<IExperience> = (props) => (
   <React.Fragment>
     <div className="w-full hidden md:flex border border-gray-200 p-5 my-3">
       <div className="flex flex-col justify-center">
-        <Image src={props.image} height={100} width={100} layout="fixed" />
+        <Image
+          src={props.image}
+          height={100}
+          width={100}
+          layout="fixed"
+          alt="Experience Image"
+        />
       </div>
       <div className="pl-5 w-full flex flex-col">
         <div className="flex">
@@ -35,6 +41,7 @@ const ExperienceCard: React.FC<IExperience> = (props) => (
             width={100}
             layout="fixed"
             className="rounded-full"
+            alt="Experience Image"
           />
         </div>
         <div className="pl-5 w-8/12 flex flex-col justify-center">

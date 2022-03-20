@@ -24,7 +24,8 @@ const BlogSection: React.FC<IBlogResponse> = (props) => {
       <div className="text-center max-w-max mx-auto w-3/4 pt-24">
         <blockquote>
           <span className="text-3xl font-medium">
-            “The first step in blogging is not writing them but reading them.”
+            &quot;The first step in blogging is not writing them but reading
+            them.&quot;
           </span>
           <br />
           <span className="text-gray-500 text-lg">– Jeff Jarvis</span>
