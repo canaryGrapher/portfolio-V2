@@ -14,8 +14,11 @@ import Footer from "../components/common/Footer";
 //importing images
 import { Logo } from "../assets/common";
 
-//importing services
-import * as gtag from "../utils/services/gtag";
+declare global {
+  interface Window {
+    gtag: any;
+  }
+}
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   const router = useRouter();
