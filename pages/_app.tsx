@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import { AppProps } from "next/dist/shared/lib/router/router";
+import Script from "next/script";
 
 // importing tailwind files
 import "tailwindcss/tailwind.css";
@@ -14,6 +15,7 @@ import Footer from "../components/common/Footer";
 //importing images
 import { Logo } from "../assets/common";
 
+import * as gtag from "../lib/gtag";
 declare global {
   interface Window {
     gtag: any;
@@ -35,24 +37,24 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   }, [router.events]);
   return (
     <>
-      <Head>
-        <script
-          async
-          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
+      <Script
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
+      />
+      <Script
+        id="gtag-init"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+            gtag('config', '${gtag.GA_TRACKING_ID}', {
               page_path: window.location.pathname,
             });
           `,
-          }}
-        />
-      </Head>
+        }}
+      />
       <div className="overflow-x-hidden">
         <Head>
           <meta charSet="utf-8" />
