@@ -24,7 +24,15 @@ const Designs: NextPage = () => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <div className="px-5 md:px-20 lg:px-32 text-gray-200">
-        <DesignSection />
+        {false ? (
+          <DesignSection />
+        ) : (
+          <div className="min-h-64">
+            <p className="pt-20 pb-48 my-20 text-3xl">
+              This page isn&apos;t complete yet
+            </p>
+          </div>
+        )}
       </div>
     </React.Fragment>
   );

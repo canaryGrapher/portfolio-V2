@@ -8,7 +8,7 @@ const client = new ApolloClient({
 
 const GET_POSTS = gql`
                 query GetUserArticles($page: Int!) {
-                    user(username: "${process.env.HASHNODE_USERNAME}") {
+                    user(username: "yasharyan") {
                         publication {
                             posts(page: $page) {
                                 title

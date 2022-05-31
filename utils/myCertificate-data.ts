@@ -1,9 +1,16 @@
 // importing types 
 import { ICertificates } from "../interfaces/certificates"
 
-const distinctIssuers: string[] = ["Binance", "Codecademy", "Coursera", "HP LIFE", "IECSE Manipal", "LetsUpgrade", "LinkedIn Learning", "Microsoft Student Partners India"]
+const distinctIssuers: string[] = ["Udemy", "Binance", "Codecademy", "Coursera", "HP LIFE", "IECSE Manipal", "LetsUpgrade", "LinkedIn Learning", "Microsoft Student Partners India"]
 
 const certificateData: ICertificates[] = [
+    {
+        name: "MERN Stack Front To Back: Full Stack React, Redux & Node.js",
+        organization: "Udemy",
+        issuedDate: "May 2022",
+        link: "https://www.udemy.com/certificate/UC-2f866c6f-6465-4bbf-ad90-969747f80bac/",
+        image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/Certificates/udemy_LFu_kWqON.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654027829213"
+    },
     {
         name: "Campus BUIDLer Program",
         organization: "Binance",
@@ -136,6 +143,13 @@ const certificateData: ICertificates[] = [
         issuedDate: "June 2021",
         link: "",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/Certificates/linkedinLearning_zKtWHPC4Gh9.jpg?updatedAt=1639174719385"
+    },
+    {
+        name: "Technical Support Fundamentals",
+        organization: "Coursera",
+        issuedDate: "January 2022",
+        link: "https://www.coursera.org/account/accomplishments/certificate/GM6MFP9GPR2Q",
+        image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/Certificates/courseraLogo_SjHTU5bG9H4.jpg?updatedAt=1639117206338"
     },
     {
         name: "Algorithmic Thinking (Part 1)",

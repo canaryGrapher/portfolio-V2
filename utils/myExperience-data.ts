@@ -4,20 +4,20 @@ import { IExperience } from "../interfaces/home"
 // Formal Experiences
 const myExperience: IExperience[] = [
     {
-        name: "Alyssum Global Services",
-        designation: "DevOps Engineer",
-        role: "Intern",
-        timeline: "February 2022 - present",
-        description: "Alyssum Global Services is an application development, big data, machine learning, cloud computing, DevOps, Cybersecurity consulting organisation.",
-        image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/Experience/Formal/Alyssum_Global_Bmrb5AIJQ?ik-sdk-version=javascript-1.4.3&updatedAt=1645818881826",
-    },
-    {
         name: "Indian Institute of Science (IISc) Bangalore",
         designation: 'Full stack Developer',
         role: "Trainee",
         timeline: 'October 2021 - present',
-        description: "Working on an Open-source project",
+        description: "aNANt is an initiative of Materials Theory and Simulations Group, Materials Research Centre, Indian Institute of Science Bangalore to develop and host an open-access online repository of functional materials. I am working with the team to redesign and bring their old website to life.",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/Experience/Formal/IISC_MZbuZsCN4Wb.jpg"
+    },
+    {
+        name: "Alyssum Global Services",
+        designation: "DevOps Engineer",
+        role: "Intern",
+        timeline: "February 2022 - March 2022",
+        description: "Alyssum Global Services is an application development, big data, machine learning, cloud computing, DevOps, Cybersecurity consulting organisation. My work included learning and implementing ARM scripts for Microsoft Azure and using the Boto3 library for AWS services for automating tasks.",
+        image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/Experience/Formal/Alyssum_Global_Bmrb5AIJQ?ik-sdk-version=javascript-1.4.3&updatedAt=1645818881826",
     },
     {
         name: "Nonceblox Private Limited",
@@ -36,20 +36,20 @@ const myExperience: IExperience[] = [
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/Experience/Formal/chillspace_IIgQb2J64tzu.png?updatedAt=1636521858209"
     },
     {
+        name: "Innovation Center, Manipal",
+        designation: 'Web developer and System Administrator',
+        role: "Intern",
+        timeline: 'January 2019 - December 2021',
+        description: "I got into the Innovation Center within the first six months in Manipal. I helped in various WebDev projects, ideation process, and in conducting Hackathons. I also managed a servers that helped other projects host their websites on the internet during their testing phases.",
+        image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/Experience/Formal/innovation_center_kyrzpd1G2-8a.jpg"
+    },
+    {
         name: "Ioncure Tech Pvt. Ltd.",
         designation: 'Web Designer and Developer',
         role: "Intern",
         timeline: 'May 2020 - August 2020',
-        description: "I designed and developed a website for the company's Solve@Pandemic 2020 project using NodeJS on the server-side and EJS as the templating language.",
+        description: "I designed and developed a website for the company's Solve@Pandemic 2020 project using NodeJS on the server-side and EJS as the templating language. The website was a platform for the company to showcase their products and services to the public during the Covid-19 pandemic.",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/Experience/Formal/ioncure_skTqj0eHYZL.png?updatedAt=1636521857506https://ik.imagekit.io/canarygrapher/Portfolio/home/Experience/Formal/nonceblox_oYjryRGcf.png?updatedAt=1636521857791"
-    },
-    {
-        name: "Innovation Center, Manipal",
-        designation: 'Web developer and System Administrator',
-        role: "Intern",
-        timeline: 'January 2019 - present',
-        description: "Helped in various WebDev projects, ideation process, conducting Hackathons, and managing servers for test projects.",
-        image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/Experience/Formal/innovation_center_kyrzpd1G2-8a.jpg"
     },
 ]
 
@@ -59,7 +59,7 @@ const informalExperience: IExperience[] = [
         name: "Binance",
         designation: 'Binance Campus BUIDLer',
         role: "Volunteer",
-        timeline: 'November 2021 - present',
+        timeline: 'November 2021 - Janurary 2022',
         description: "Representative of the Binance Campus BUIDLer program, which is a program to help students build crypto skills and get introduced to the Binance ecosystem.",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/Experience/Informal/binance_4979Rk6qk.png?updatedAt=1639079290305"
     },
@@ -67,7 +67,7 @@ const informalExperience: IExperience[] = [
         name: "Codecademy Community",
         designation: 'Chapter leader',
         role: "Volunteer",
-        timeline: 'August 2021 - present',
+        timeline: 'August 2021 - March 2022',
         description: "Organizing events and share knowledge with the Codecademy community in Manipal Institute of Technology, working on projects together and helping out fellow community members in understanding concepts.",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/Experience/Informal/codecademy_VMHGMCur5.jpg?updatedAt=1639079305981"
     },
