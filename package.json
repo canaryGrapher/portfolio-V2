@@ -1,5 +1,6 @@
 {
   "private": true,
+  "name": "yasharyan",
   "scripts": {
     "dev": "next",
     "build": "next build",
