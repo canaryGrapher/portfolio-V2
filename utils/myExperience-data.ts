@@ -4,10 +4,26 @@ import { IExperience } from "../interfaces/home"
 // Formal Experiences
 const myExperience: IExperience[] = [
     {
+        name: "ICICI Bank",
+        designation: 'Product Manager',
+        role: "Full Time",
+        timeline: 'August 2022 - present',
+        description: "Just started working with ICICI Bank",
+        image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/Experience/Formal/icicibank_Zz0CRj7Y5.jpg"
+    },
+    {
+        name: "Leap Wallet",
+        designation: 'Frontend Developer Consultant',
+        role: "Contract",
+        timeline: 'July 2022',
+        description: "Worked on Leap Wallet cosmos extension and helped the team implement the multi-currency support, forgot passwords flow, manage chain flow, and token swap flow on the frontend.",
+        image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/Experience/Formal/leapwallet_yc23HENkS.jpg"
+    },
+    {
         name: "Indian Institute of Science (IISc) Bangalore",
         designation: 'Full stack Developer',
         role: "Trainee",
-        timeline: 'October 2021 - present',
+        timeline: 'October 2021 - June 2022',
         description: "aNANt is an initiative of Materials Theory and Simulations Group, Materials Research Centre, Indian Institute of Science Bangalore to develop and host an open-access online repository of functional materials. I am working with the team to redesign and bring their old website to life.",
         image: "https://ik.imagekit.io/canarygrapher/Portfolio/home/Experience/Formal/IISC_MZbuZsCN4Wb.jpg"
     },
