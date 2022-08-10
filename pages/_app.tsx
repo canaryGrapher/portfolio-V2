@@ -8,12 +8,11 @@ import Script from "next/script";
 import "tailwindcss/tailwind.css";
 import "styles/globals.css";
 
-// importing components
-import Navbar from "../components/common/Navbar";
-import Footer from "../components/common/Footer";
-
 //importing images
-import { Logo } from "../assets/common";
+import { Logo, Wallaper } from "../assets/common";
+
+// importing components
+import StatusBar from "../components/common/StatusBar";
 
 import * as gtag from "../lib/gtag";
 declare global {
@@ -60,9 +59,25 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
           <meta charSet="utf-8" />
           <link rel="icon" type="image/png" href={Logo} />
         </Head>
-        <Navbar />
-        <Component {...pageProps} />
-        <Footer />
+        <div className="text-gray-200 h-screen w-screen relative">
+          <div className="z-0 fixed" id="screen"></div>
+          <div className="z-10 fixed h-full w-full flex flex-col text-center">
+            <StatusBar />
+            <div className="mt-24">
+              <Component {...pageProps} />
+            </div>
+          </div>
+        </div>
+        <style jsx>{`
+          #screen {
+            height: 100vh;
+            width: 100vw;
+            background-image: url(${Wallaper});
+            background-size: cover;
+            filter: blur(3px);
+            -webkit-filter: blur(3px);
+          }
+        `}</style>
       </div>
     </>
   );
